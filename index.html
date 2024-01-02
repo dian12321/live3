@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="shoutcut icon" href="./images/fv.svg">
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/live.js"></script>
+  
+</head>
+
+<body>
+    <div id="wrap">
+        <!--========= 헤더====== -->
+        <header>
+            <div class="lm">
+                <!-- =====로고====== -->
+                <h1 class="logo">
+                    <a href="#"><img src="./images/logo.svg" alt="로고"></a>
+                </h1>
+
+                <!--========== 메뉴========== -->
+                <nav class="pcMenu">
+
+
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">레퍼런스</a></li>
+                        <li><a href="#">스튜디어스</a></li>
+                        <li><a href="#">Q&amp;A</a></li>
+                        <li><a href="#">문의사항</a></li>
+                    </ul>
+
+
+
+
+                </nav>
+
+            
+            <!-- ========모바일메뉴========= -->
+
+            <nav class="mobileMenu">
+                <!--햄버거버튼  -->
+                <span onclick="openNav()">
+                    <a href="#">
+                        <img src="./images/toggle.svg" alt="">
+                    </a>
+                </span>
+
+                <!--전체메뉴박스  -->
+
+                <div id="myNav" class="overlay">
+
+
+                    <!--닫기버튼  -->
+                    <a href="#" class="closBtn" onclick="closeNav()">
+                        <img src="./images/close.svg" alt="">
+                    </a>
+                    <!--모바일메뉴  -->
+                    <div class="overlay-content">
+
+                        <ul>
+
+                            <li><a href="#">회사소개</a></li>
+
+                            <li><a href="#">레퍼런스</a></li>
+
+                            <li><a href="#">스튜디오</a></li>
+
+                            <li><a href="#">Q&A</a></li>
+
+                            <li><a href="#">문의사항</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </nav>
+
+        </div>
+        </header>
+
+
+
+        <main>
+
+
+            <div class="centerImg">
+                <a href="#">
+                    <Img src="./images/centerImg.svg" alt="메인이미지">
+                </a>
+
+            </div>
+
+
+
+        </main>
+
+
+
+
+
+
+        <footer>
+
+            <div class="mainBtn">
+                <a href="#" class="btn">
+                    <img src="./images/bottomBtn.svg" alt="하단버튼">
+                </a>
+            </div>
+
+        </footer>
+
+
+
+    </div>
+
+    <div id="popup">
+
+
+        <span class="close">
+
+            <a><img src="./images/close.svg" alt="닫기버튼"></a>
+
+        </span>
+
+    </div>
+
+<div class="bg"></div>
+
+</body>
+
+</html>
